@@ -526,7 +526,10 @@ button:focus {
   letter-spacing: 0.04em;
   border-style: none;
   background-color: #fcfcfc;
+  width: 90%;
+  height: 60%;
 }
+
 .comment {
   min-height: 120px;
   padding-left: 16px;
@@ -538,12 +541,23 @@ button:focus {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   height: 40px;
+  gap: 4px;
 }
 .input-box.comment {
   align-items: flex-start;
+  justify-content: start;
 }
 .input-icon {
   margin-left: 16px;
+  stroke: #2e2f42;
+  transition: stroke 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.form-input:active {
+  border-style: none;
+}
+.form-input:active .input-icon {
+  stroke: #4d5ae5;
 }
 .form-input::placeholder {
   color: rgba(46, 47, 66, 0.4);
