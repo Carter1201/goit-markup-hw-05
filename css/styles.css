@@ -431,6 +431,7 @@ button:focus {
 .subscribe-form {
   display: flex;
   flex-direction: row;
+  gap: 24px;
 }
 .subscribe-text {
   font-weight: 500;
@@ -446,7 +447,13 @@ button:focus {
   width: 264px;
   height: 40px;
   background-color: transparent;
-  margin-right: 24px;
+}
+.subscribe-email::placeholder {
+  font-size: 12px;
+line-height: 2;
+letter-spacing: 0.04em;
+color: #fff;
+padding-left: 16px;
 }
 .subscribe-button {
   border-style: none;
@@ -454,10 +461,9 @@ button:focus {
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  gap: 16px;
   border-radius: 4px;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   background: #4d5ae5;
   font-weight: 500;
@@ -466,9 +472,11 @@ button:focus {
   letter-spacing: 0.04em;
   text-align: center;
   color: #fff;
+  cursor: pointer
 }
 .subscribe-icon {
   fill: #fff;
+  margin-left: 16px;
 }
 
 /* Modal window */

@@ -536,7 +536,13 @@
         <div class="subscribe-box">
           <p class="subscribe-text">Subscribe</p>
           <form class="subscribe-form">
-            <input class="subscribe-email" type="email" placeholder="E-mail" />
+            <label></label>
+              <input
+                class="subscribe-email"
+                type="email"
+                placeholder="E-mail"
+              />
+            </label>
             <button class="subscribe-button" type="submit">
               Subscribe<svg class="subscribe-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-send"></use>
@@ -609,15 +615,14 @@
           </div>
           <div class="modal-label-box">
             <label class="form-label" for="input-comment">Comment</label>
-            <div class="input-box">
-              <textarea
-                class="input-comment"
-                name="comment"
-                rows="5"
-                id="input-comment"
-                placeholder="Text input"
-              ></textarea>
-            </div>
+
+            <textarea
+              class="input-comment"
+              name="comment"
+              rows="5"
+              id="input-comment"
+              placeholder="Text input"
+            ></textarea>
           </div>
           <div class="form-terms-agree">
             <input
