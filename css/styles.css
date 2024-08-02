@@ -366,7 +366,7 @@ button:focus {
   align-items: baseline;
 }
 .footer-info {
-  max-width: 264px;
+  width: 264px;
   margin-right: 120px;
 }
 .footer-link {
@@ -391,6 +391,7 @@ button:focus {
 }
 .footer-soc-media {
   width: 208px;
+  margin-right: 80px;
 }
 .footer-soc-links-list {
   display: flex;
@@ -421,6 +422,53 @@ button:focus {
 }
 .footer-soc-icon {
   fill: #f4f4fd;
+}
+.subscribe-box {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.subscribe-form {
+  display: flex;
+  flex-direction: row;
+}
+.subscribe-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+.subscribe-email {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  background-color: transparent;
+  margin-right: 24px;
+}
+.subscribe-button {
+  border-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 16px;
+  border-radius: 4px;
+  padding: 8px 24px;
+  width: 165px;
+  height: 40px;
+  background: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+}
+.subscribe-icon {
+  fill: #fff;
 }
 
 /* Modal window */
