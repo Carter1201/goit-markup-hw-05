@@ -442,18 +442,24 @@ button:focus {
   margin-bottom: 16px;
 }
 .subscribe-email {
-  border: 1px solid #fff;
+  border: 1px solid #ffffff;
   border-radius: 4px;
   width: 264px;
   height: 40px;
   background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .subscribe-email::placeholder {
   font-size: 12px;
-line-height: 2;
-letter-spacing: 0.04em;
-color: #fff;
-padding-left: 16px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  padding-left: 16px;
 }
 .subscribe-button {
   border-style: none;
@@ -466,16 +472,17 @@ padding-left: 16px;
   min-width: 165px;
   height: 40px;
   background: #4d5ae5;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   text-align: center;
-  color: #fff;
-  cursor: pointer
+  color: #ffffff;
+  cursor: pointer;
 }
 .subscribe-icon {
-  fill: #fff;
+  fill: #ffffff;
   margin-left: 16px;
 }
 

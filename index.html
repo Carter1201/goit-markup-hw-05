@@ -536,10 +536,11 @@
         <div class="subscribe-box">
           <p class="subscribe-text">Subscribe</p>
           <form class="subscribe-form">
-            <label></label>
+            <label class="input-label">
               <input
                 class="subscribe-email"
                 type="email"
+                name="subscribe-email"
                 placeholder="E-mail"
               />
             </label>
@@ -615,14 +616,15 @@
           </div>
           <div class="modal-label-box">
             <label class="form-label" for="input-comment">Comment</label>
-
-            <textarea
-              class="input-comment"
-              name="comment"
-              rows="5"
-              id="input-comment"
-              placeholder="Text input"
-            ></textarea>
+            <div class="input-box">
+              <textarea
+                class="input-comment"
+                name="comment"
+                rows="5"
+                id="input-comment"
+                placeholder="Text input"
+              ></textarea>
+            </div>
           </div>
           <div class="form-terms-agree">
             <input
