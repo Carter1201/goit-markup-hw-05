@@ -568,7 +568,7 @@ button:focus {
 .modal-label-box {
   margin-bottom: 8px;
 }
-.modal-label-box:last-child {
+.modal-label-box-comment {
   margin-bottom: 16px;
 }
 .form-label {
