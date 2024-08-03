@@ -649,7 +649,6 @@ button:focus {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 8px;
   margin-bottom: 24px;
 }
 
@@ -661,12 +660,6 @@ button:focus {
   display: flex;
   align-items: baseline;
   gap: 8px;
-}
-.terms-text {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 4px;
 }
 .terms-link {
   line-height: 1.33;
