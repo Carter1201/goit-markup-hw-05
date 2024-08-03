@@ -575,7 +575,7 @@
               <input
                 class="form-input"
                 type="text"
-                name="name"
+                name="user-name"
                 id="user-name"
                 required
               />
@@ -590,7 +590,7 @@
               <input
                 class="form-input"
                 type="tel"
-                name="phone"
+                name="user-phone"
                 id="user-phone"
                 required
               />
@@ -605,7 +605,7 @@
               <input
                 class="form-input"
                 type="email"
-                name="email"
+                name="user-email"
                 id="user-email"
                 required
               />
@@ -616,25 +616,23 @@
           </div>
           <div class="modal-label-box">
             <label class="form-label" for="user-comment">Comment</label>
-            <div class="input-box">
-              <textarea
-                class="input-comment"
-                name="comment"
-                rows="5"
-                id="user-comment"
-                placeholder="Text input"
-              ></textarea>
-            </div>
+            <textarea
+              class="input-comment"
+              name="user-comment"
+              rows="5"
+              id="user-comment"
+              placeholder="Text input"
+            ></textarea>
           </div>
           <div class="form-terms-agree">
             <input
-              class="agree-checkbox"
-              name="terms-checkbox"
+              class="visually-hidden"
+              name="user-privacy"
               type="checkbox"
-              id="terms-checkbox"
+              id="user-privacy"
               value="true"
             />
-            <label class="privacy-policy" for="terms-checkbox"
+            <label class="privacy-policy" for="user-privacy"
               ><span class="new-checkbox">
                 <svg class="checkbox-tick" width="10" height="8">
                   <use href="./images/icons.svg#icon-tick"></use></svg></span

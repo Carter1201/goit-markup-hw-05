@@ -551,7 +551,7 @@ button:focus {
 }
 .button-close:hover .close-icon,
 .button-close:focus .close-icon {
-  fill: #fff;
+  fill: #ffffff;
 }
 .modal-topic {
   font-weight: 500;
@@ -566,7 +566,7 @@ button:focus {
   border-radius: 4px;
 }
 .modal-label-box {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .form-label {
   display: block;
@@ -660,7 +660,7 @@ button:focus {
   text-decoration-skip-ink: none;
   color: #4d5ae5;
 }
-.agree-checkbox {
+.visually-hidden {
   position: absolute;
   opacity: 0;
   cursor: pointer;
@@ -668,13 +668,17 @@ button:focus {
   width: 0;
 }
 .new-checkbox {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   width: 16px;
   height: 16px;
   border-radius: 2px;
+  fill: transparent;
   border: 1px solid rgba(46, 47, 66, 0.4);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .checkbox-tick {
   fill: transparent;
@@ -683,7 +687,5 @@ button:focus {
 .agree-checkbox:checked + .privacy-policy span {
   background-color: #404bbf;
   border-style: none;
-}
-.agree-checkbox:checked + .privacy-policy .checkbox-tick {
   fill: #f4f4fd;
 }
