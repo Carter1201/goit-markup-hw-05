@@ -652,6 +652,7 @@ button:focus {
   gap: 8px;
   margin-bottom: 24px;
 }
+
 .privacy-policy {
   font-size: 12px;
   line-height: 1.17;
@@ -660,6 +661,12 @@ button:focus {
   display: flex;
   align-items: baseline;
   gap: 8px;
+}
+.terms-text {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
 }
 .terms-link {
   line-height: 1.33;
@@ -687,15 +694,8 @@ button:focus {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.checkbox-tick {
-  fill: transparent;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 .visually-hidden:checked + .privacy-policy .new-checkbox {
   background-color: #404bbf;
   border-style: none;
-  fill: #f4f4fd;
-}
-.visually-hidden:checked + .privacy-policy .checkbox-tick {
   fill: #f4f4fd;
 }
